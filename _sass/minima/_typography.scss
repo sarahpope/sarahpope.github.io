@@ -1,0 +1,110 @@
+h1 {
+	font-size: 6.375rem;
+	
+	@include media-query($on-palm) {
+		font-size: 4rem;
+	}
+
+
+    span {
+
+		&:after {
+			height: 18px;
+			bottom: 36px;
+
+			@include media-query($on-palm) {
+				bottom: 22px;
+			}
+		}
+    }
+
+}
+
+h2 {
+	font-size: 2.75rem;
+
+    span {
+
+		&:after {
+			height: 12px;
+			bottom: 14px;
+			
+			@include media-query($on-palm) {
+				bottom: 14px;
+			}
+
+
+		}
+    }
+
+}
+
+.intro-paragraph {
+	font-size: 1.3rem;
+}
+
+.highlight {
+
+	span {
+		display: inline-block;
+		position: relative;
+		z-index: 2;
+
+
+		&:after {
+			content: '';
+			width: 101%;
+			position: absolute;
+			left: 0;
+			background-color: $light-blue;
+			z-index: -1;
+			
+		}
+
+	}
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-style: italic;
+	color: $navy;
+}
+
+.project {
+
+	h2 {
+		font-size: 1.875rem;
+	}
+
+	a {
+		color: $text-color;
+		text-decoration: none;
+	}
+}
+
+.post-meta,
+.social-links a {
+
+	text-transform: uppercase;
+	font-family: 'Roboto', Helvetica, sans-serif;
+	letter-spacing: 1.3px;
+
+}
+
+.social-links a {
+
+	text-decoration: none;
+	font-size: .9rem;
+
+	
+}
+
+figcaption {
+	margin-top: 1em;
+
+	h2 {
+		margin-bottom: 0;
+	}
+}
+
+

@@ -1,0 +1,27 @@
+.site-footer {
+	background-color: #fff;
+}
+
+
+.footer-content {
+
+  padding: 5rem 0 5rem 2rem;
+  border-top: 1px solid $light-blue;
+
+  @include media-query($on-palm) {
+		padding: 3rem 0 3rem 0rem;
+	}
+
+  .highlight {
+  	margin: 0px;
+  }
+
+  h2 a {
+	
+	@include media-query($on-palm) {
+		font-size: 2rem;
+	}
+
+  }
+  
+}
