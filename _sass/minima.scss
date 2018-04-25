@@ -2,7 +2,7 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Lora", Helvetica, Arial, sans-serif !default;
+$base-font-family: "Lora", Helvetica Neue, Arial, sans-serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -13,12 +13,13 @@ $spacing-unit:     30px !default;
 $navy: #396186;
 $light-blue:#D7E6EA;
 $pink: #E28F6C;
+$gold: #cc9f1a;
 
-$text-color:       #4C535A !default;
+$text-color:       rgba(0,0,0,.80) !default;
 $background-color: #ffffff !default;
 $brand-color:      #2a7ae2 !default;
 
-$grey-color:       #828282 !default;
+$grey-color:       #4C535A !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
