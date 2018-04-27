@@ -5,27 +5,23 @@ layout: page
     
         <h3 class="project-title">Zip Digital</h3>
 
-        <h1 class="project-tag highlight"><span>Simplified resident notifications</span></h1>
+        <h1 class="project-tag">Simplified resident notifications</h1>
+
+        <div class="project-deets">
+
+		<h5><span>Role:</span>UX design, Front-end development</h5>
+		<h5><span>Company:</span> Indatus</h5>
+		<h5><span>Launched:</span> April 2014</h5>
+		
+	</div>
 
 </header>
-
-<section class="project-summary">
-
-	<div class="inner-content">
-        
-	    <p>In 2014, Indatus was spending a significant amount of time and money supporting Zip Digital; a legacy multi-family mass-notification tool. Instead of continuing to try and patch a sinking ship, we were tasked to recreate an entirely new product to replace it. After months of user research and iterative development, we released our first version on April 1, 2015. A day that will live on forever—as the day before the President of the United States came to pay us a visit. More on that later.</p>
-
-	    <h4 class="role">Role</h4>
-
-	    <p>I was part of the agile development team responsible for creating the new Zip Digital. I led design and front-end development work, working with a dedicated UX researcher for the first half of the product cycle. When she moved on to a new opportunity, my product owner and I shared those responsibilities.</p>
-
-    </div>
-
-</section>
 
 <section class="project-challenge">
 
 	<div class="inner-content">
+
+		<p>In 2014, Indatus was spending a significant amount of time and money supporting Zip Digital; a legacy multi-family mass-notification tool. Instead of continuing to try and patch a sinking ship, we were tasked to recreate an entirely new product to replace it. After months of user research and iterative development, we released our first version on April 1, 2015. A day that will live on forever—as the day before the President of the United States came to pay us a visit. More on that later.</p>
 
 	    <h3 class="section-header">The Challenge</h3>
 
@@ -35,9 +31,17 @@ layout: page
 
 	</div>
 
-    <h4 class="center italic">Legacy Zip Digital</h4>
+    <figure class="project-img">
+          
+      <img src="{{ site.baseurl }}{% link images/legacy.jpg %}" alt="Legacy Zip Digital">
 
-    <img src="/images/legacy.jpg" alt="Legacy Zip Digital">
+      <figcaption>
+        
+        <p>Legacy Zip Digital</p>
+
+      </figcaption>
+
+      </figure>
 
 </section>
 
@@ -106,11 +110,23 @@ layout: page
 
         <h4>Early List Creation Sketches</h4>
         
-        <img class="sketch column-4" src="/images/new-list.jpg" alt="sketch">
+        <figure class="project-img">
+          
+          <img class="sketch" src="{{ site.baseurl }}{% link images/new-list.jpg %}" alt="New List Sketch">
 
-        <img class="sketch column-4" src="/images/import-sketch.jpg" alt="sketch">
+      	</figure>
 
-        <img class="sketch column-4" src="/images/expanded-list-sketch.jpg" alt="sketch">
+        <figure class="project-img">
+          
+          <img class="sketch" src="{{ site.baseurl }}{% link images/import-sketch.jpg %}" alt="Import Sketch">
+
+      	</figure>
+
+        <figure class="project-img">
+          
+          <img class="sketch" src="{{ site.baseurl }}{% link images/expanded-list-sketch.jpg %}" alt="Expanded List Sketch">
+
+      	</figure>
     
     </div>
 
@@ -126,9 +142,17 @@ layout: page
 
     </div>
 
-    <h4>Column Mapping Prototype</h4>
+    <figure class="project-img">
+          
+        <img class="sketch" src="{{ site.baseurl }}{% link images/ui-prototype.jpg %}" alt="Column Mapping">
 
-    <img class="" src="/images/ui-prototype.jpg" alt="Column Mapping Prototype">
+        <figcaption>
+            
+            <p>Column Mapping Prototype</p>
+
+         </figcaption>
+
+     </figure>
 
     <div class="inner-content">
 
@@ -138,36 +162,85 @@ layout: page
 
 	</div>
 
-    <img src="/images/ui-import-modal.jpg" alt="Import Modal">
+    <figure class="project-img">
+          
+        <img class="sketch" src="{{ site.baseurl }}{% link images/ui-import-modal.jpg %}" alt="Import Modal">
+
+        <figcaption>
+            
+            <p>Import Modal</p>
+
+         </figcaption>
+
+     </figure>
 
     <div class="inner-content">
 
 	    <p>After going back to the drawing board with our new knowledge, we decided to use a CSV template that allowed users to copy and paste their contact data in to the appropriate columns. Customers responded better to this option because they felt it gave them more control for how their data was being imported. They could add as many custom columns as they wanted as long as they included: <strong>First Name</strong>, <strong>Last Name</strong>, and <strong>one point of contact</strong>.</p> 
 
+	    <p>They could also create as many lists as they wanted, and each could have different contacts on them to allow them to target their messaging.Once a contact had been uploaded successfully, a user could see all of imported data associated with that contact in one place, as well as any of the messages that had been sent to them.</p>
+
 	</div>
 
-    <img src="/images/ui-overall-lists.jpg" alt="Overall Lists">
+    <figure class="project-img">
+          
+        <img class="sketch" src="{{ site.baseurl }}{% link images/ui-overall-lists.jpg %}" alt="List view">
 
-    <img src="/images/ui-contact-card.jpg" alt="Contact Card">
+        <figcaption>
+            
+            <p>List View</p>
+
+         </figcaption>
+
+     </figure>
+
+    <figure class="project-img">
+          
+        <img class="sketch" src="{{ site.baseurl }}{% link images/ui-contact-card.jpg %}" alt="Contact Card">
+
+        <figcaption>
+            
+            <p>Contact Card</p>
+
+         </figcaption>
+
+     </figure>
 
     <div class="inner-content">
-
-	    <p>They could also create as many lists as they wanted, and each could have different contacts on them to allow them to target their messaging.Once a contact had been uploaded successfully, a user could see all of imported data associated with that contact in one place, as well as any of the messages that had been sent to them.</p>
 
 	    <h3 class="center section-header">Sending Messages With Ease</h3>
 
-
 	    <p>As mentioned earlier, our users are busy people. Message creation needed to be as simple as possible so they could get them out quickly and reliably. We decided to use clean form fields and I wrote friendly micro copy that would help guide users through creating and sending their messages.</p>
+
+	    <p>Users could choose which list they wanted to send to, give their message an internal name, type it out, and send all on the same view. Once messages were sent, users could see a summary of the message and watch in real-time as it gets sent out to a list of contacts. They could also filter the recipients by their send status.</p>
 
 	</div>
 
-    <img src="/images/ui-new-email.jpg" alt="New Email Message">
+    <figure class="project-img">
+          
+        <img class="sketch" src="{{ site.baseurl }}{% link images/ui-new-email.jpg %}" alt="New Email Message">
 
-    <img src="/images/ui-message-view.jpg" alt="Message View">
+        <figcaption>
+            
+            <p>Creating a New Message</p>
+
+         </figcaption>
+
+     </figure>
+
+    <figure class="project-img">
+          
+        <img class="sketch" src="{{ site.baseurl }}{% link images/ui-message-view.jpg %}" alt="Message View">
+
+        <figcaption>
+            
+            <p>Sent Message View</p>
+
+         </figcaption>
+
+     </figure>
 
     <div class="inner-content">
-
-	    <p>Users could choose which list they wanted to send to, give their message an internal name, type it out, and send all on the same view. Once messages were sent, users could see a summary of the message and watch in real-time as it gets sent out to a list of contacts. They could also filter the recipients by their send status.</p>
 
 	    <h3>Friendly Feedback</h3>
 
@@ -179,11 +252,29 @@ layout: page
 
     </div>
     
-    <h4>Google Doc of Message Copywriting</h4>
+    <figure class="project-img">
+          
+        <img class="sketch" src="{{ site.baseurl }}{% link images/ui-alert-messages.jpg %}" alt="Alert Message Copy">
 
-    <img src="/images/ui-alert-messages.jpg" alt="Alert Messages">
+        <figcaption>
+            
+            <p>Alert Copy</p>
 
-    <img src="/images/ui-404.jpg" alt="404 page">
+         </figcaption>
+
+     </figure>
+
+    <figure class="project-img">
+          
+        <img class="sketch" src="{{ site.baseurl }}{% link images/ui-404.jpg %}" alt="404 Page">
+
+        <figcaption>
+            
+            <p>404 Page, Illustration by Robby Davis</p>
+
+         </figcaption>
+
+     </figure>
 
 </section>
 
@@ -195,15 +286,27 @@ layout: page
 
 	    <p>Although the launch day of Zip Digital was slightly over shadowed by the presence of Secret Service agents and bomb-sniffing dogs (seriously, thanks Obama) we saw it as a success when we heard from happy customers that the new product was a huge improvement over legacy and saw a drop in customer service calls.</p>
 
+	    <p>I was proud of the first iteration of the new Zip Digital. Although I wish I had been brought on to the development team earlier, I still was able to take real feedback and put that at the forefront for every design decision, rather than assuming we knew what our users needed. I also got to learn a lot about the agile process and the benefits of iterative design.</p>
+
+	    <p>There are definitely plenty of areas that could be improved on, especially with the importing process. Customers would have preferred direct integration with their property management software that was unfortunately unfeasible on our end due to extremely high costs. As much as I wish we could solve for every problem, some things are are just out of our control. I still am happy that our users now have a significantly improved experience with our software.</p> 
+
     </div>
 
-    <img src="/images/obama.jpg" alt="President Obama Visits Indatus">
+    <figure class="project-img">
+          
+        <img class="sketch" src="{{ site.baseurl }}{% link images/obama.jpg %}" alt="President Obama Visits Indatus">
+
+        <figcaption>
+            
+            <p>A Visit from President Obama</p>
+
+         </figcaption>
+
+     </figure>
 
     <div class="inner-content">
 
 	    <blockquote class="pull-quote">"After the rebuild of the product we saw a significant drop in customer calls and tickets. Customers were no longer having issues with how to utilize our product. The drop in tickets and customer complaints/problems has allowed us to focus our attention on new projects within our department." <cite>Stefanie Hogan, Customer Care</cite></blockquote>
-
-	    <p>I was proud of the first iteration of the new Zip Digital. Although I wish I had been brought on to the development team earlier, I still was able to take real feedback and put that at the forefront for every design decision, rather than assuming we knew what our users needed. I also got to learn a lot about the agile process and the benefits of iterative design.</p>
 
 	    <div class="row">
 
@@ -215,9 +318,7 @@ layout: page
 
 	        <blockquote class="column-4 small-quote">"Janie was able to search her name and contact information, "no problem" in the new ZD. Commented that it was simple to find.</blockquote>
 
-	    </div>
-
-	    <p>There are definitely plenty of areas that could be improved on, especially with the importing process. Customers would have preferred direct integration with their property management software that was unfortunately unfeasible on our end due to extremely high costs. As much as I wish we could solve for every problem, some things are are just out of our control. I still am happy that our users now have a significantly improved experience with our software.</p> 
+	    </div>	    
 
     </div>      
 

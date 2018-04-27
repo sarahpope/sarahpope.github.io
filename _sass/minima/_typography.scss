@@ -5,9 +5,13 @@ body {
     font-size: 18px;
 }
 
-
-
 h1 {
+	font-size: 4rem;
+}
+
+
+
+.intro-headline {
 	font-size: 6.375rem;
 	
 	@include media-query($on-palm) {
@@ -90,8 +94,20 @@ h3 {
 		text-decoration: none;
 	}
 
-	.project {
+}
 
+.post-content {
+
+	figcaption {
+		text-align: center;
+		margin-top: .5em;
+	}
+}
+
+.project-deets {
+	
+	span {
+		font-weight: 600;
 	}
 }
 
@@ -109,7 +125,6 @@ h3 {
 	text-decoration: none;
 	font-size: .9rem;
 
-	
 }
 
 figcaption {
@@ -125,5 +140,6 @@ p {
 	word-break: break-word;
     word-wrap: break-word;
 }
+
 
 

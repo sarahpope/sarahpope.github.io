@@ -337,15 +337,18 @@
 .inner-content {
   max-width: 740px;
   margin: 0 auto;
+  margin-top: 50px;
+}
+
+.project-img {
+  margin-top: 50px;
 }
 
 
 .post-list {
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10%;
-
 }
 
 
