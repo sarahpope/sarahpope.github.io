@@ -286,11 +286,6 @@
       padding-top: 0;
     }
 
-    @include media-query($on-palm) {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
     h1 {
       margin-bottom: 0;
     }
@@ -306,7 +301,6 @@
     }  
 
 }
-
 
 
 .project {
@@ -342,6 +336,12 @@
 
 .project-img {
   margin-top: 50px;
+  display: grid;
+  grid-template-columns: 60% 1fr;
+  grid-gap: 35px;
+  @include media-query($on-palm) {
+        margin-top: 0;
+    }
 }
 
 
@@ -349,6 +349,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10%;
+}
+
+.intro, .project-img {
+  @include media-query($on-palm) {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1em;
+    }
 }
 
 
