@@ -57,6 +57,11 @@ h2 {
 	font-size: 1.3rem;
 }
 
+.site-title span:after {
+	height: 12px;
+	bottom: 14px;
+}
+
 .highlight {
 
 	span {
@@ -85,6 +90,7 @@ h3 {
 	color: $gold;
 }
 
+
 .project {
 
 	h2 {
@@ -107,6 +113,10 @@ h3 {
 	figcaption {
 		text-align: center;
 		margin-top: .5em;
+	}
+
+	h4 {
+		font-weight: 600;
 	}
 }
 
