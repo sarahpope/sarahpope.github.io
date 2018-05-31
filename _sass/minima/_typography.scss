@@ -72,6 +72,7 @@ h2 {
 			left: 0;
 			background-color: $light-blue;
 			z-index: -1;
+			height: 20%;
 			
 		}
 
@@ -79,7 +80,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.5rem;
+	font-size: 2rem;
 	font-style: italic;
 	color: $gold;
 }
@@ -95,6 +96,10 @@ h3 {
 		text-decoration: none;
 	}
 
+}
+
+.project a:hover h3 {
+	text-decoration: underline;
 }
 
 .post-content {
@@ -123,7 +128,6 @@ h3 {
 
 .social-links a {
 
-	text-decoration: none;
 	font-size: .9rem;
 
 }

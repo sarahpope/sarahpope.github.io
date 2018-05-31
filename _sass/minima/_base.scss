@@ -97,23 +97,18 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: $gold;
-
-  //&:visited {
-    //color: darken($gold, 5%);
-  //}
+  text-decoration: none;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
 
   &:hover {
     color: darken($gold, 5%);
-    text-decoration: none;
+    text-decoration: underline;
+    
   }
 
-  .social-media-list &:hover {
-    text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
-  }
 }
 
 
