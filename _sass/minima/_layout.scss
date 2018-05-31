@@ -175,7 +175,8 @@
   @include relative-font-size(1.25);
 }
 
-.post-list {
+.post-list,
+.home-post-list {
   margin-left: 0;
   list-style: none;
 
@@ -322,12 +323,13 @@
   margin-top: 50px;
   grid-template-columns: 60% 1fr;
   grid-gap: 35px;
+  align-items: center;
   @include media-query($on-palm) {
         margin-top: 0;
     }
 }
 
-.post-list, 
+.home-post-list, 
 .project-img, 
 .img-row--three, 
 .img-row--two {
@@ -336,10 +338,15 @@
 }
 
 
-.post-list {
+.home-post-list {
 
     grid-template-columns: 1fr 1fr;
     grid-gap: 10%;
+    align-items: center;
+
+    .view-all-posts {
+      justify-self: center;
+    }
 }
 
 .img-row--three {
@@ -354,6 +361,7 @@
 }
 
 .intro, 
+.home-post-list,
 .project-img, 
 .img-row--three, 
 .img-row--two {
