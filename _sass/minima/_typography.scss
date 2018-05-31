@@ -115,6 +115,10 @@ h3 {
 		margin-top: .5em;
 	}
 
+	h1 {
+		font-size: 3.5rem;
+	}
+
 	h4 {
 		font-weight: 600;
 	}
@@ -154,6 +158,11 @@ p {
 	line-height: 1.7;
 	word-break: break-word;
     word-wrap: break-word;
+}
+
+cite {
+	display: block;
+	margin-top: 1rem;
 }
 
 
