@@ -16,7 +16,7 @@ h1 {
 	font-size: 6.375rem;
 	
 	@include media-query($on-palm) {
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 
 
@@ -116,7 +116,11 @@ h3 {
 	}
 
 	h1 {
-		font-size: 3rem;
+		font-size: 4rem;
+		line-height: 120%;
+		@include media-query($on-palm) {
+			font-size: 2rem;
+		}
 	}
 
 	h4 {
