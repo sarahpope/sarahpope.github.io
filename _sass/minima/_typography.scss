@@ -88,6 +88,7 @@ h3 {
 	font-size: 2rem;
 	font-style: italic;
 	color: $gold;
+	line-height: 130%;
 }
 
 
@@ -121,6 +122,10 @@ h3 {
 		@include media-query($on-palm) {
 			font-size: 2rem;
 		}
+	}
+
+	h2 {
+		line-height: 120%;
 	}
 
 	h4 {
