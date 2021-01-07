@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Sarah Pope
-email: hello@sarahpope.co
+email: sarah.pope941@gmail.com
 description: >-
   Sarah Pope, Product Designer. Hi there! I help businesses solve tough techinical problems with human-focused solutions. I have spent most of my adult life captivated by the web and how we interact with it. As a designer, I’m all about implementing what’s best for the end user—not my ego. Helping companies solve systemic problems while creating something beautiful feels pretty great.
 baseurl: "" # the subpath of your site, e.g. /blog
